@@ -101,7 +101,7 @@ services:
       - LOAD_EX=n
       - EXECUTOR=Local
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgres+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__FERNET_KEY=eyWvuFYiDwSfAGevDXp_sg1nB7mlySvlOSYm2z63bzI=
+      - AIRFLOW__CORE__FERNET_KEY= # fill in fernet key
       - AIRFLOW__WEBSERVER__DEFAULT__USER_USERNAME=airflow
       - AIRFLOW__WEBSERVER__DEFAULT__USER_PASSWORD=airflow
       - AIRFLOW_WWW_USER_USERNAME=airflow
@@ -134,7 +134,7 @@ services:
       - LOAD_EX=n
       - EXECUTOR=Local
       - AIRFLOW__DATABASE__SQL_ALCHEMY_CONN=postgres+psycopg2://airflow:airflow@postgres/airflow
-      - AIRFLOW__CORE__FERNET_KEY=eyWvuFYiDwSfAGevDXp_sg1nB7mlySvlOSYm2z63bzI=
+      - AIRFLOW__CORE__FERNET_KEY= # fill in fernet key
       - AIRFLOW__WEBSERVER__DEFAULT__USER_USERNAME=airflow
       - AIRFLOW__WEBSERVER__DEFAULT__USER_PASSWORD=airflow
       - AIRFLOW_WWW_USER_USERNAME=airflow
